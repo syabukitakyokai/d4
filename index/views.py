@@ -7,7 +7,7 @@ from .models import Greeting
 
 # Create your views here.
 def index(request):
-    return HttpResponse('Hello Tokyo No.1 Dest rock Show!')
+    return HttpResponse('Hello Tokyo No.1 Dest rock Show!!')
     #r = requests.get('http://httpbin.org/status/418')
     #print(r.text)
     #return HttpResponse('<pre>' + r.text + '</pre>')
