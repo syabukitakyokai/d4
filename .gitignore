@@ -3,7 +3,6 @@ venv
 staticfiles
 .env
 db.sqlite3
-getting-started/*
-.venv/*
+.venv
 Pipfile
-Pipfile[.]*
+Pipfile.*

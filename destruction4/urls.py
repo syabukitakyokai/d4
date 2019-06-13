@@ -1,21 +1,7 @@
-from django.urls import path, include
+from django.urls import path
 
-from django.contrib import admin
-
-admin.autodiscover()
-
-import index.views
-
-# To add a new path, first import the app:
-# import blog
-#
-# Then add the new path:
-# path('blog/', blog.urls, name="blog")
-#
-# Learn more here: https://docs.djangoproject.com/en/2.1/topics/http/urls/
+from . import views
 
 urlpatterns = [
-    path("", index.views.index, name="index"),
-    path("db/", index.views.db, name="db"),
-    path("admin/", admin.site.urls),
+    path('', views.index, name='index'),        
 ]

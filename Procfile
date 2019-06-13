@@ -1,1 +1,1 @@
-web: gunicorn destruction4.wsgi --log-file -
+web: gunicorn d4.wsgi --log-file -
